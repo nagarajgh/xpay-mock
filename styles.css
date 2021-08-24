@@ -1,0 +1,195 @@
+body {
+  background-color: #202020;
+align-items: center;
+  display: inline;
+  font-family: sans-serif;
+}
+
+select {
+  background-color: #202020;
+  color: #c0c0d0;
+  padding:10px;
+  margin-left: 25px;
+  height: 50px;
+  width: 150px;
+  font-weight: bold;
+}
+select:hover {
+  color: #c0c0d0;
+  border: #c0c0d0 1px solid;
+}
+
+option {
+  color: #c0c0d0;
+  background-color: #202020;
+  font-family: sans-serif;
+}
+
+/***********a Tag**********/
+a {
+  padding: 20px;
+  font-weight: bold;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c0c0d0;
+}
+
+/**********Brand logo*******/
+.logo {
+  display: inline-block;
+
+}
+
+.brandLogo {
+  height: 60px;
+  width: 60px;
+  padding: 10px 10px 10px 50px;
+  opacity: 80%;
+}
+
+.brandLogo:hover {
+  opacity: 100%;
+}
+
+/****************Navigation******/
+.navbar {
+  position: relative;
+  background-color: inherit;
+  color: #585858;
+
+}
+
+.right-nav {
+  position: relative;
+  display: inline-block;
+  padding: 15px 100px 15px 15px;
+  top: 10px;
+  float: right;
+}
+
+.left-nav {
+  position: absolute;
+  display: inline-block;
+  padding: 15px 15px 15px 50px;
+  top: 10px;
+}
+
+/*********Button*************/
+button ,input {
+  background-color: #202020;
+  color: #585858;
+  height: 50px;
+  width: 150px;
+  border: #585858 1px solid;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+button:hover {
+  color: #202020;
+  background-color: white ;
+  border: #fff 1px solid;
+  font-family: sans-serif;
+}
+.bigButton{
+  height: 100px;
+  width: 400px;
+  color: inherit;
+  background-color:#f0e8f0;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+}
+
+.pay{
+  display: grid;
+  background-color: #384058;
+  grid-template-columns: repeat(5,1fr);
+  grid-auto-rows: 200px;
+  padding: 50px;
+}
+.icons{
+background-color:  #202020;
+ margin: auto auto;
+ border-bottom: 10px;
+ color: #fff;
+ border-radius: 4%;
+ padding: 10px;
+ opacity: 80%;
+}
+
+.icons:hover{
+  color: #202020;
+  background-color: #fff;
+  opacity: 100%;
+}
+
+/*********Heading*********/
+h1{
+  font-family: sans-serif;
+  font-size: 4rem;
+  font-weight: 900;
+  color: #f0e8f0;
+  text-align: center;
+  padding: 40px;
+  margin: 0 10%;
+}
+.big-heading{
+  padding: 100px;
+}
+
+.payDetails{
+  padding-left: 270px;
+}
+.tabContainer{
+  background-color:inherit;
+  opacity: 100%;
+}
+.active{
+  opacity: 80%;
+  background-color: #d85860;
+  border: 0;
+}
+.tablink{
+  margin: 0 50px;
+  border: 0;
+  color: white;
+}
+.details{
+  opacity: 80%;
+  background-color: #d85860;
+  padding: 20px 100px;
+  color: white;
+  font-size: 2rem;
+  line-height: 30px;
+}
+.features{
+  margin: auto auto;
+  display: inline-grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-auto-rows: 100px;
+  padding: 100px;
+  color: #fff;
+  text-align: center;
+}
+.feature-image{
+height:150px;
+width: 150px;
+padding: 0 50px;
+}
+.feature-text{
+  padding: 0 50px;
+
+}
